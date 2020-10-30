@@ -53,3 +53,7 @@ docker:
 		--build-arg GITVERSION=$(GITVERSION) \
 		-t $(IMAGE_NAME) .
 	@echo built image $(IMAGE_NAME)
+
+.PHONY: test_integration
+test_integration:
+	poetry run pytest -m integration
