@@ -1,5 +1,7 @@
 # Project Syn: Commodore
 
+**Don't contribute here, go to github.com/projectsyn/commodore**
+
 This repository is part of Project Syn.
 For documentation on Project Syn and this component, see https://syn.tools.
 
